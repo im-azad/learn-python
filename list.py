@@ -14,4 +14,24 @@ fruitsList.append("Lucy")
 tropical = ["mango", "pineapple", "papaya"]
 fruitsList.extend(tropical)
 
-print(fruitsList)
+#remove specified item
+fruitsList.remove("mango") 
+fruitsList.remove("mango") 
+
+# remove last item using pop()
+fruitsList.pop()
+fruitsList.pop(3)
+
+#  delete list completely
+carList = ["bmw", "jpe", "honda"]
+
+
+print("deleting carlist ")
+# del carList 
+carList.clear()
+# print(fruitsList )
+# print(carList)  #carlist is not defined
+
+
+for x in fruitsList:
+    print(x) #loop through a list
