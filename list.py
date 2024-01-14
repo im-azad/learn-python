@@ -32,6 +32,16 @@ carList.clear()
 # print(fruitsList )
 # print(carList)  #carlist is not defined
 
-
+# For loop
 for x in fruitsList:
     print(x) #loop through a list
+
+print("break............")
+i = 0
+while i < len(fruitsList):
+  print(fruitsList[i])
+  i = i + 1
+
+print("break............")
+
+[print(x) for x in fruitsList] #short hand 
