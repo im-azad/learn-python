@@ -14,5 +14,8 @@ def myfunc(n):
 numList = [100, 50, 65, 82, -10, 23]
 
 numList.sort(key = myfunc)
+numList.reverse() #reverse the sort
 
-print(numList)
+mylist1 = numList.copy()
+mylist2 = list(numList)
+print(numList,"br--", mylist1, "break", mylist2)
